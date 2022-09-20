@@ -1,0 +1,41 @@
+{
+    "experiences": [
+        {
+            "company": "Santa Monica College",
+            "link": "/",
+            "title": "Math & CS Tutor",
+            "duration": "Aug 2019 - Aug 2020",
+            "desc": [
+                "I tutored Calculus I & II, Multivariable Calculus, intro to C, object-oriented programming, and data structures.",
+                "I helped students grasp concepts they were having trouble understanding and also assisted them with their homework.",
+                "I successfully analyzed and debugged code (C, C++, and Java) written by different individuals and provided feedback."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title":"2048",
+            "image": "./images/project_1.png",
+            "body": "Implemented an AI algorithm to win the 2048 game by achieving an average score of 2040 or greater.",
+            "skills": ["JavaScript", "HTML", "CSS"],
+            "github": "/",
+            "demo": ""
+        },
+        {
+            "title":"Gridworld",
+            "image": "./images/project_2.png",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "skills": ["Python"],
+            "github": "/",
+            "demo": "/"
+        },
+        {
+            "title":"Blackjack",
+            "image": "./images/project_2.png",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "skills": ["Python"],
+            "github": "/",
+            "demo": "/"
+        }
+    ]
+}
