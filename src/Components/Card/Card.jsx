@@ -3,11 +3,12 @@ import styles from './Card.module.css'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
-function Card({ image, title, body, github, demo, skills }) {    
+function Card({ image, video, title, body, github, demo, skills }) {    
     return (
         <div className={styles.card_container}>
             <div className={ styles.card_thumbnail }>
-                <img src={image} alt='' />
+                {/* <img src={image} alt=''/> */}
+                <video key={video} src={video} autoPlay={true} type="video/mp4" muted poster={image} loop controls={false} />
             </div>
 
             <div className={styles.card_content}>
@@ -20,7 +21,6 @@ function Card({ image, title, body, github, demo, skills }) {
                 </div>
 
                 <div className={ styles.card_links }>
-                    {/* create two anchor tags and align them horizontally OR copy the left part of website with icons */}
                     <a href={github} target="_blank" className={ styles.icon }>
                         <GitHubIcon />
                     </a>

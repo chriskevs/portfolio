@@ -5,17 +5,33 @@
     transition: 0.5s;
     animation: ease-in-out;
 }
+  
 
 .card_container:hover {
-    transform: scale(1.07);
+    transform: scale(1.08);
     box-shadow: 0px 0px 15px 0px;
 }
 
-.card_thumbnail img{
+/* .card_thumbnail img{
     overflow: hidden;
     height: 200px;
-}
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    display: block;
+} */
 
+.card_thumbnail video {
+    overflow: hidden;
+    height: 200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%;
+    display: block;
+    padding-top: 15px;
+}
 .card_content {
     margin: 1rem;
     padding: 0.5rem;
@@ -38,6 +54,7 @@ h2 {
 
 .card_body {
     word-spacing: 3.5px;
+    text-align: left;
 }
 .card_links {
     display: flex;

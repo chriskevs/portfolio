@@ -5,7 +5,7 @@ import constant from "../../constant.json";
 import styles from "./Projects.module.css";
 import Card from "../../Components/Card/Card"
 
-function Projects() {
+function Projects() {	
 	return (
 		<section id="projects">
 			<Heading index="03" heading="Projects" />
@@ -13,7 +13,8 @@ function Projects() {
 				{
 					constant.projects.map(project => {
 						return <Card
-							image={project.image}
+							image = {project.image}
+							video={project.video}
 							title={project.title}		
 							body={project.body}
 							github={project.github}

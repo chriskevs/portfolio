@@ -9,13 +9,11 @@ function About() {
             <div className={styles.container}>
                 <div className={styles.left}>
                     <p className={styles.desc}>
-                        Hello! My name is Christian Gonzalez and I am currently an undergraduate student at <a href="https://ucsd.edu/about/index.html" target="_blank">University of California, San Diego</a>. 
-                        I am majoring in Computer Science and minoring in Mathematics.
+                        Hello, my name is Christian Gonzalez and I am currently an undergraduate student at the <a href="https://ucsd.edu/about/index.html" target="_blank">University of California, San Diego</a>. 
+                        I am pursuing a degree in Computer Science and a minor in Mathematics. I find myself to be interested in a lot of things but as of recently, I've been mainly focusing on artificial intelligence and full-stack development. Outside of school, I enjoy watching movies & shows, trying out new food, spending time with family & friends, and playing videogames.
                     </p>
                     <br/>
                     <p className={styles.desc}>
-                        My interest in Computer Science and Math began during my freshman year of college. Prior to college, I had no coding experience and barely had any interest in math.
-                        <br/><br/>
                         Here are the technologies I have worked with:
                     </p>
                     <br/>
