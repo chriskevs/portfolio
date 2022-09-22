@@ -1,5 +1,5 @@
 import styles from "./Navbar.module.css";
-
+import Resume from "../../assets/resume.pdf"
 function Navbar() {
 	return (
 		<nav className={styles.nav_container}>
@@ -19,7 +19,8 @@ function Navbar() {
 				{/* <a href="#contact" className={styles.nav_link}>
 					<span>04.</span>Contact
 				</a> */}
-				<button className={styles.nav_resume_btn}>Resume</button>
+				
+				<a href={Resume} download="resume"><button type="submit" className={styles.nav_resume_btn}>Resume</button></a>
 			</div>
 		</nav>
 	);

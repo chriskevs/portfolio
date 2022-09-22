@@ -2,7 +2,7 @@ import Heading from "../../Components/Heading/Heading";
 import styles from "./About.module.css";
 
 function About() {
-    const skills = ['JavaScript (ES6+)', 'React.js', 'Node.js', 'Express.js', 'Python', 'Java', 'C++', 'C', 'Pandas', 'Numpy', 'Jupyter Notebook','HTML', 'CSS']
+    const skills = ['JavaScript (ES6+)', 'React', 'Node.js', 'Express.js', 'Python', 'Java', 'C++', 'C', 'Pandas', 'Numpy', 'Jupyter Notebook','HTML', 'CSS']
     return (
         <section id="about">
             <Heading index="01" heading="About me" />

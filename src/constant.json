@@ -20,7 +20,7 @@
             "body": "Implemented an AI algorithm to win the 2048 game by achieving an average score of 2048 or greater. The AI algorithm implemented is the expectimax search algorithm. This algorithm utilizes a heuristic as its evaluation function. The heuristic used simply applies weights to each tile in the game to enable the AI to use the snake strategy to win the game.",
             "skills": ["JavaScript", "HTML", "CSS"],
             "github": "https://github.com/chriskevs/2048_website",
-            "demo": ""
+            "demo": "https://chriskevs.github.io/2048_website/"
         },
         {
             "title":"Gridworld",
@@ -29,7 +29,7 @@
             "body": "Implemented search algorithms, using python, to visualize how an agent would traverse the gridworld based on the search algorithm used. Some of the grid cells are obstacles and some aren't. Moreover, each grid cell that isn't an obstacle has a weight associated to them. The search algorithms used are DFS, BFS, Dijkstra's, and A*. The heuristic used for A* is Manhattan distance.",
             "skills": ["Python"],
             "github": "https://github.com/chriskevs/Gridworld",
-            "demo": "/"
+            "demo": "https://youtu.be/nIpVDvhX6ww"
         },
         {
             "title":"Blackjack",
@@ -38,7 +38,7 @@
             "body": "In order to get a better understanding of how the reinforcement learning algorithms taught in my AI class works, I had to implement an AI algorithm that learns how to play and win in Blackjack using these algorithms. The AI program's winning rate is around 41% when using Q-learning. The reinforcement algorithms used in the AI program are Monte Carlo, Temporal-difference, and Q-learning.",
             "skills": ["Python"],
             "github": "https://github.com/chriskevs/Blackjack-CSE-150B",
-            "demo": "/"
+            "demo": "https://youtu.be/3lUya_J9Ew8"
         }
     ]
 }
