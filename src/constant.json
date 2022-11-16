@@ -35,7 +35,7 @@
             "title":"Blackjack",
             "image": "./media/blackjack_img.png",
             "video": "./media/blackjack_vid.mov",
-            "body": "In order to get a better understanding of how the reinforcement learning algorithms taught in my AI class works, I had to implement an AI algorithm that learns how to play and win in Blackjack using these algorithms. The AI program's winning rate is around 41% when using Q-learning. The reinforcement algorithms used in the AI program are Monte Carlo, Temporal-difference, and Q-learning.",
+            "body": "In order to get a better understanding of how the reinforcement learning algorithms taught in my AI class works, I had to implement an AI algorithm that learns how to play and win in Blackjack using these algorithms. The reinforcement algorithms used in the AI program are Monte Carlo, Temporal-difference, and Q-learning. The AI program's winning rate is around 41% when using Q-learning.",
             "skills": ["Python"],
             "github": "https://github.com/chriskevs/Blackjack-CSE-150B",
             "demo": "https://youtu.be/3lUya_J9Ew8"
